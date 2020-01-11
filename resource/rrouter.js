@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
             res.status(200).json(r)
         })
         .catch(err => {
-            res.stuatus(500).json({message: "Error retrieving resources data"})
+            res.status(500).json({message: "Error retrieving resources data"})
         })
 })
 

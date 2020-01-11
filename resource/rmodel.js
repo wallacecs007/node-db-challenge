@@ -10,7 +10,7 @@ async function add(resource) {
 }
 
 function get() {
-    return db('resource')
+    return db('resources')
 }
 
 module.exports = {
