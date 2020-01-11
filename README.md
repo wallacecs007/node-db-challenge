@@ -16,17 +16,17 @@ The Minimum Viable Product must be completed in three hours.
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add your _Team Lead_ as collaborator on Github.
-- [ ] Clone your forked version of the Repository.
-- [ ] Create a new Branch on the clone: git checkout -b `firstName-lastName`.
-- [ ] Implement the project on this Branch, committing changes regularly.
-- [ ] Push commits: git push origin `firstName-lastName`.
+- [X] Create a forked copy of this project.
+- [X] Add your _Team Lead_ as collaborator on Github.
+- [X] Clone your forked version of the Repository.
+- [X] Create a new Branch on the clone: git checkout -b `firstName-lastName`.
+- [X] Implement the project on this Branch, committing changes regularly.
+- [X] Push commits: git push origin `firstName-lastName`.
 
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge `firstName-lastName` Branch into master on **your fork, don't make Pull Requests against Lambda's repository**.
-- [ ] Please don't merge your own pull request.
+- [X] Submit a Pull-Request to merge `firstName-lastName` Branch into master on **your fork, don't make Pull Requests against Lambda's repository**.
+- [X] Please don't merge your own pull request.
 - [ ] Add your _Team Lead_ as a Reviewer on the Pull-request
 - [ ] Your _Team Lead_ will count the challenge as done by merging the branch into _master_.
 
@@ -43,8 +43,9 @@ Demonstrate your understanding of this week's concepts by answering the followin
 - [ ] Why do tables need a `primary key`?
 
 - [ ] What is the name given to a table column that references the primary key on another table.
-
+Foreign Keys
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+We need to have a another table (one at minimum) that connects them in a sense.
 
 ## Minimum Viable Product
 
@@ -52,7 +53,7 @@ Take the steps necessary to complete the project from scratch. Start by initiali
 
 Complete the following tasks:
 
-- [ ] Design the data model and use _knex migrations_ to create the database and tables.
+- [X] Design the data model and use _knex migrations_ to create the database and tables.
 - [ ] Build an API with endpoints for:
   - [ ] adding resources.
   - [ ] retrieving a list of resources.
@@ -98,25 +99,25 @@ The API should return:
 
 A `project` is what needs to be done. We want to store the following data about a `project`:
 
-- [ ] a unique Id.
-- [ ] a name. This column is required.
-- [ ] a description.
-- [ ] a boolean that indicates if the project has been completed. This column cannot be NULL, the default value should be `false`.
+- [X] a unique Id.
+- [X] a name. This column is required.
+- [X] a description.
+- [X] a boolean that indicates if the project has been completed. This column cannot be NULL, the default value should be `false`.
 
 A `resource` is anything needed to complete a project, some examples are: a person, a tool, a meeting room or a software license. We want to store the following data about a `resource`:
 
-- [ ] a unique Id.
-- [ ] a name. This column is required.
-- [ ] a description.
+- [X] a unique Id.
+- [X] a name. This column is required.
+- [X] a description.
 
 The database should not allow resources with duplicate names.
 
 An `task` one of the steps needed to complete the project. We want to store the following data about an `task`.
 
-- [ ] a unique id.
-- [ ] a description of what needs to be done. This column is required.
-- [ ] a notes column to add additional information.
-- [ ] a boolean that indicates if the task has been completed. This column cannot be NULL, the default value should be `false`.
+- [X] a unique id.
+- [X] a description of what needs to be done. This column is required.
+- [X] a notes column to add additional information.
+- [X] a boolean that indicates if the task has been completed. This column cannot be NULL, the default value should be `false`.
 
 ## Stretch Problem
 
